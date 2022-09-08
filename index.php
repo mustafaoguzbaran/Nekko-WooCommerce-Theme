@@ -80,10 +80,10 @@ $discountrate = round(100-$discountedprice / $regularprice * 100, 1) . '%'
 */
 ?>
                 <!-- <span style="padding: 10px" class="badge"<?php echo $discountrate . " İndirim"; ?></span><br> -->
-
+                <div itemscope itemtype="https://schema.org/Offer">
                 <span itemprop="price" style="color: white" class="badge main-page-price"><?php echo $product->get_price_html();  ?></span>
-                <h5> <a itemprop="name" href="<?php the_permalink() ?>" class="text-dark main-title"><?php the_title(); ?></a></h5>
-                <p class="small text-muted font-italic"></p>
+                </div>
+                <div itemprop="name"><h5><a href="<?php the_permalink() ?>" class="text-dark main-title"><?php the_title(); ?></a></h5></div>
               </div>
             </div>
           <!-- HTML !--><a href ="<?php the_permalink(); ?>">
