@@ -336,3 +336,4 @@ td.woocommerce-table__product-name.product-name a {color: #000000;}
 .woocommerce .wc-bacs-bank-details-account-name {padding-bottom: 20px;}
 .woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before {content: none;}
 .woocommerce p.stars a {color:#1e2a3d}
+text{display: none;}
