@@ -1,0 +1,89 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+.ads{padding: 15px}
+div.carousel-item{height: 500px;}
+.trendyol-button {margin-top: 50px; text-align: center; }
+.location {margin-top: 60px}
+    }
+    
+    /* 
+      ##Device = Laptops, Desktops
+      ##Screen = B/w 1025px to 1280px
+    */
+    
+    @media (min-width: 1025px) and (max-width: 1280px) {
+
+      .ads{padding: 15px}
+      .trendyol-button {margin-top: 50px; text-align: center; }
+      .location {margin-top: 60px}
+      
+    }
+    
+    /* 
+      ##Device = Tablets, Ipads (portrait)
+      ##Screen = B/w 768px to 1024px
+    */
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .look{display: none}
+    
+    }
+    
+    /* 
+      ##Device = Tablets, Ipads (landscape)
+      ##Screen = B/w 768px to 1024px
+    */
+    
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+      .look{display: none}
+    }
+    
+    /* 
+      ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px
+    */
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+      .look{display: none}
+      div.card.headbar{text-align: center;}
+
+    
+      
+    }
+    
+    /* 
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
+    
+    @media (min-width: 320px) and (max-width: 480px) {
+      .look{display: none}
+      div.card.headbar{text-align: center;}
+      .woocommerce span.onsale {margin-left: 10px;}
+      img.attachment-shop_catalog.size-shop_catalog.wp-post-image {width: 305px; height: 370px;}
+    }
+    @media (width: 320px) and (width: 320px) {
+        .post-img {max-height: 200px; border-radius:15px; margin-bottom: 15px;}
+        
+      }
+      @media (width: 360px) and (width: 360px) {
+        .post-img {max-height: 230px; border-radius:15px; margin-bottom: 15px;}
+        div.ads.ads-first{margin-top: 210px}
+      }
+      @media (width: 280px) and (width: 280px) {
+        .post-img {max-height: 170px; border-radius:15px; margin-bottom: 15px;}
+        .night-mode-desktop{display: none}
+      }
+      @media (width: 1024px) and (width: 1024px) {
+        .post-img {max-height: 190px; border-radius:15px; margin-bottom: 15px;}
+        
+      }
+      @media (width: 390px) and (width: 390px) {
+        .post-img {max-height: 200px; border-radius:15px; margin-bottom: 15px;}
+        
+      }
+

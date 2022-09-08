@@ -1,0 +1,338 @@
+/*
+Theme Name: Nekko WooCommerce Theme
+Theme URI: https://www.mustafaoguzbaran.com
+Version: 1.0 FUSION
+Description: WooCommerce Nekko Theme
+Author: Mustafa Oğuz BARAN
+Author URI: https://www.mustafaoguzbaran.com
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, :link {
+	font-size: 100%;
+	background: transparent;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style-type: none ;
+}
+a {transition: all .2s ease;    -webkit-transition: all .2s ease;    -o-transition: all .2s ease;}
+.ads
+{
+  transform: rotate(-2deg);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ffbd27;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+}
+.navbar-toggler {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+.menu-button{color: white; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.ads{height: 100%; border-radius: 10px; color: white; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.location {margin-top: 40px; background-color:#1e2a3d; padding: 5px; border-radius: 5px; color: white; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.logo {margin-top: 20px; text-align: center; font-size: 25px; font-weight: 400; background-color: #ffbd27; padding: 5px; border-radius: 100px; color: white; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; width: 180px; border: 1px solid #1e2a3d}
+.byshirts-cart {margin-top: 60px; text-align: center; background-color: #ffbd27; padding: 5px; border-radius:10px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;};
+ul.navbar-nav {text-align: center;}
+.ms-auto{text-align: center;}
+nav {margin-top: 20px; background-color: #eff1f8;}
+a.nav-link{color: #1e2a3d; text-align: center;}
+.look {margin-top: 20px;  border-bottom: 2px solid #1e2a3d; }
+.main-content{margin-top: 20px}
+.main-page-product-title{color:#1e2a3d; text-align: center; font-size: 16px;}
+.main-title{text-decoration: none;}
+.badge{background-color: #ffbd27; margin: 5px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.badge {transform: rotate(-3deg)}
+.main-page-price{background-color: #1e2a3d;}
+.main-page-price del {line-height: 20px;color:#bbbbbb;font-size:14px;margin-right: 10px; font-size: 10px;}
+span.badge.main-page-price {font-size:18px;line-height: 30px;}
+span.main-page-price{color: white}
+span.badge{color: black}
+div.title{text-align: center; padding-top: 10px;}
+div.card.pagecard{border: none; box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; padding: 20px;}
+.content{padding: 20px; }
+div.card.headbar{box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.breadcrumb {margin-top: 20px;margin-bottom:20px; width: 100%;}
+.breadcrumb a {font-weight: bold;color: #1e2a3d; text-decoration: none;}
+.logout{text-align: center; background-color: #ffbd27; padding: 5px; border-radius: 5px; color: black; width: 50px;   text-align: center; margin-left: 10px;}
+.logout a {text-decoration: none;  color: black;}
+.current-user-menu {padding-bottom: 10px; padding-top: 10px;}
+div.notice{margin-top: 10px;}
+.register{padding-bottom: 10px; padding-top: 10px;}
+/* CSS */
+.button-53 {
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ffbd27;
+  border: 0 solid #E5E7EB;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: '';
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: .75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+/* CSS */
+.button-52 {
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffbd27;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+.deneb_cta .cta_wrapper {
+    padding: 45px 50px 42px;
+    max-width: 970px;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: -135px;
+    margin-top: 50px;
+    position: relative;
+    background-image: -moz-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+    background-image: -webkit-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+    background-image: -ms-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+    box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+    z-index: 1;
+}
+.deneb_cta .cta_wrapper:after {
+    content: "";
+    background: url(../images/shape/cta_shape.png) no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.deneb_cta .cta_wrapper .cta_content h3 {
+    color: #fff;
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .deneb_cta .cta_wrapper .cta_content h3 {
+        font-size: 24px;
+    }
+}
+.deneb_cta .cta_wrapper .cta_content h3:after {
+    content: "";
+    display: block;
+    background: url(../images/shape/line_2.png) no-repeat;
+    max-width: 110px;
+    height: 2px;
+    margin-top: 13px;
+    margin-bottom: 24px;
+}
+.deneb_cta .cta_wrapper .cta_content p {
+    color: #fff;
+}
+.deneb_cta .cta_wrapper .button_box {
+    float: right;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .deneb_cta .cta_wrapper .button_box {
+        float: none;
+        text-align: left;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 767px) {
+    .deneb_cta .cta_wrapper .button_box {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+.deneb_cta .cta_wrapper .button_box .deneb_btn {
+    background: #fff;
+    color: #011a3e;
+}
+.deneb_cta .cta_wrapper .button_box .deneb_btn:hover,
+.deneb_cta .cta_wrapper .button_box .deneb_btn:focus {
+    box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    box-shadow: none !important;
+}
+.woocommerce div.product{width: 100%;  padding: 15px; background-color: white;  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+.woocommerce .woocommerce-breadcrumb{background-color: transparent;
+  border-radius: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;    border: 1px solid #e5e5e5;
+  padding: 15px;}
+  .woocommerce .woocommerce-breadcrumb a {font-weight: bold;color: #1e2a3d;}
+  .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {    background-color: #1e2a3d;
+    line-height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    cursor: pointer; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+    .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover{
+      background-color: #ffbd27;
+      color: #fff;
+  }
+
+  .woocommerce .quantity .qty{  border: solid 1px #ebebeb;
+    margin-right: 5px;
+    width: 126.5px;
+    height: 59.78px;
+    padding-left: 10px;
+    outline: none;
+    padding-right: 10px;
+    text-align: center;}
+    .woocommerce div.product p.price, .woocommerce div.product span.price{color:#1e2a3d; font-weight: bold; font-size: 25px;}
+    .woocommerce div.product .stock {color:#1e2a3d; font-weight: bold;}
+    span.tagged_as a {color: #ffbd27}
+    .posted_in a {color:#ffbd27}
+    .woocommerce div.product .woocommerce-tabs ul.tabs li {background-color: #1e2a3d;}
+    .woocommerce div.product .woocommerce-tabs ul.tabs li a {color: white}
+    .woocommerce span.onsale{background-color:#ffbd27}
+    #add_payment_method table.cart td.actions .coupon .input-text, .woocommerce-cart table.cart td.actions .coupon .input-text, .woocommerce-checkout table.cart td.actions .coupon .input-text {width: 130px;}
+    .woocommerce #content table.cart td.actions .coupon .button, .woocommerce #content table.cart td.actions .coupon .input-text, .woocommerce #content table.cart td.actions .coupon input, .woocommerce table.cart td.actions .coupon .button, .woocommerce table.cart td.actions .coupon .input-text, .woocommerce table.cart td.actions .coupon input, .woocommerce-page #content table.cart td.actions .coupon .button, .woocommerce-page #content table.cart td.actions .coupon .input-text, .woocommerce-page #content table.cart td.actions .coupon input, .woocommerce-page table.cart td.actions .coupon .button, .woocommerce-page table.cart td.actions .coupon .input-text, .woocommerce-page table.cart td.actions .coupon input {width: 45%; height: 50px;}
+    .woocommerce table.shop_table_responsive tr td, .woocommerce-page table.shop_table_responsive tr td a {color: #1e2a3d;}
+    #add_payment_method table.cart img, .woocommerce-cart table.cart img, .woocommerce-checkout table.cart img {width: 100px;}
+    .woocommerce-message {border-top-color: #1e2a3d ;}
+    .woocommerce-message::before {color:#1e2a3d}
+    .woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit:disabled[disabled], .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button:disabled[disabled], .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled] {display: none}
+    nav.woocommerce-MyAccount-navigation{background-color: #1e2a3d; box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 10px; padding-top: 10px; margin-top: 0px;}
+    li.woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link a{color: white}
+    .woocommerce-info {border-top-color:#ffbd27}
+    .woocommerce-info::before {color:#ffbd27}
+    .woocommerce-MyAccount-content a {color: #1e2a3d; font-weight: bold;}
+    .woocommerce table.my_account_orders .button {background-color: #1e2a3d; color: #ffffff;}
+    .woocommerce form .form-row input.input-text, 
+.woocommerce form .form-row textarea, 
+.woocommerce-page form .form-row input.input-text, 
+.woocommerce-page form .form-row text area, textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    padding: 14px 10px;
+    font-size: 12px;
+    color: #7a7a7a;
+    letter-spacing: 1px;
+    width: 100%;
+    outline: none;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{background-color: #1e2a3d; color: #ffffff;}
+span#reply-title {font-size: 30px; font-weight: bold;}
+a.switcher-popup.glink.nturl.notranslate span {color: #ffffff}
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {color: #000000}
+.woocommerce ul.products li.product .price {color:#1e2a3d}
+td.woocommerce-table__product-name.product-name a {color: #000000;}
+.woocommerce .wc-bacs-bank-details-account-name {padding-bottom: 20px;}
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after, .woocommerce div.product .woocommerce-tabs ul.tabs li::before {content: none;}
+.woocommerce p.stars a {color:#1e2a3d}
